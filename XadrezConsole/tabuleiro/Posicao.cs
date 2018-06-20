@@ -8,6 +8,11 @@
             this.Linha = linha;
         }
 
+        public void DefinirValores (int linha, int coluna) {
+            this.Coluna = coluna;
+            this.Linha = linha;
+        }
+
         public override string ToString() {
             return Linha + ", " + Coluna;
         }
