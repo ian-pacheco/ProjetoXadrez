@@ -11,5 +11,10 @@
             this.Cor = cor;
             QntMovimento = 0;
         }
+
+        public void Movimento() {
+            QntMovimento++;
+        } 
+
     }
 }
