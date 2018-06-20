@@ -5,11 +5,11 @@
         public int QntMovimento { get; protected set; }
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Tabuleiro tab, Cor cor) {
-            this.Posicao = posicao;
+        public Peca(Tabuleiro tab, Cor cor) {
+            Posicao = null;
             this.Tab = tab;
             this.Cor = cor;
-            QntMovimento = 0;   
+            QntMovimento = 0;
         }
     }
 }
