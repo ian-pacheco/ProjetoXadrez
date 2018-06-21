@@ -15,6 +15,9 @@
         public void Movimento() {
             QntMovimento++;
         }
+        public void DesMovimento() {
+            QntMovimento--;
+        }
 
         public bool ExisteMovPossivel() {
             bool[,] mat = MovimentosPossiveis();
