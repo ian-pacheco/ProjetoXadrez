@@ -8,7 +8,7 @@ namespace xadrez {
 
 
         public PosicaoXadrez(char coluna, int linha) {
-            this.Coluna = coluna;
+            Coluna = coluna;
             Linha = linha;
         }
 
